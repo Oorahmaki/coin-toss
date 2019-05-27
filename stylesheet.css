@@ -1,0 +1,79 @@
+* {
+  font-family: helvetica;
+  text-align: center;
+}
+
+.main {
+  display: grid;
+  grid-template: 2fr 1fr 1fr 1fr 1fr/ 1fr;
+  width: 66vw;
+  margin: auto;
+  text-align: center;
+  background-color: #ebebeb;
+  padding: 10px;
+  grid-gap: 10px;
+  height: 75vh;
+  border-radius: 5px;
+}
+
+.coin {
+  border: gold solid 5px;
+  background-color: gold;
+  border-radius: 100%;
+  width: 10em;
+  align-self: center;
+  justify-self: center;
+  height: 10em;
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+}
+
+.icon {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  align-self: center;
+  justify-self: center;
+  font-size: 7em;
+  color: white;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+.bold {
+  font-style: italic;
+  font-size: 1.7em;
+}
+
+#guess {
+  width: 60%;
+  justify-self: center;
+  height: 60%;
+  align-self: center;
+  border-radius: 5px;
+}
+
+#button {
+  width: 60px;
+  height: 60px;
+  justify-self: center;
+  align-self: center;
+  border-radius: 100%;
+  background-color: #eeecec;
+}
+
+#resultBox {
+  border: solid #d6d6d6 3px;
+  border-radius: 5px;
+  background-color: #fafafa;
+  width: 60%;
+  align-self: center;
+  justify-self: center;
+  height: 80%;
+}
+
+.resultLabel {
+  color: grey;
+  font-style: italic;
+}
